@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-// Question types
+
 export interface Question {
   id: number;
   text: string;
@@ -46,7 +46,7 @@ export interface StartCodeResponse {
   sessionId?: string;
 }
 
-// Sample questions for the test (Reading and Writing section)
+// samples
 export const sampleQuestions: Question[] = [
   {
     id: 1,
